@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: gray;
+}
+
+header {
+    background: whitesmoke;
+
+    width: 70%;
+    margin: auto;
+}
+
+main {
+    background: #ffffff;
+
+    width: 70%;
+    padding-bottom: 30%;
+    margin: auto;
+}
+
+aside {
+    background: red;
+
+    display:flex;
+    height: 200px;
+    width: 10%;
+    position:absolute;
+    vertical-align: top;
+
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-word;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    background: gainsboro;
+}
